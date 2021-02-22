@@ -1,5 +1,5 @@
 #jogando um dado 'justo' por seis vezes
-x = sample(1:6,10000, replace = T)
+x = sample(1:6,6, replace = T)
 mean (x)
 
 x = sample(1:6,10000, replace = T)
